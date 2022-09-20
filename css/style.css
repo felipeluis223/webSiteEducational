@@ -66,6 +66,15 @@ section{
 	background-color: var(--white);
 	color: var(--black);
 }
+.heading{
+	margin-bottom: 2.5rem;
+	text-align: center;
+	font-size: 4rem;
+	color: var(--white);
+}
+.heading span{
+	color: var(--green);
+}
 .header{
 	position: fixed;
 	top: 0;	left: 0; right: 0;
@@ -182,7 +191,33 @@ section{
 	font-size: 1.6rem;
 	color: var(--light-white);
 }
-
+.courses .slide{
+	background-color: var(--light-bg);
+	border-radius: .5rem;
+	text-align: center;
+	margin-bottom: 4rem;
+	padding: 2rem;
+}
+.courses .slide img{
+	width: 100%;
+	height: 25rem;
+}
+.courses .slide h3{
+	margin: 1.5rem 0;
+	font-size: 2rem;
+	color: var(--white);
+}
+.courses .slide p{
+	line-height: 2;
+	font-size: 1.6rem;
+	color: var(--light-white);
+}
+.swiper-pagination-bullet{
+	background-color: var(--white);
+}
+.swiper-pagination-bullet-active{
+	background-color: var(--green);
+}
 
 /* media queries */
 @media (max-width: 991px){
